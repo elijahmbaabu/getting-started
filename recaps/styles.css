@@ -1,0 +1,22 @@
+body {
+    background: url("images/smart\ watch.jpg") ;
+    background-attachment: fixed;
+    background-repeat: inherit;
+    grid: inherit;
+    grid-template-columns: repeat(autofill-fit, miinmax(260px,1fr));
+}
+h1 {
+    text-align: center;
+    color: var(--primaryColor);
+}
+h2 {
+    margin-top: 0.8rem ;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    text-align: center;
+    grid-template-columns: repeat(autofill-fit, maxmin(260px,1fr));
+}
+img {
+text-emphasis: none;
+align-self: start;
+}
